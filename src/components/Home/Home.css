@@ -1,0 +1,12 @@
+.checklist {
+  text-align: center;
+}
+.checklist h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.checklist img {
+  width: 55%;
+}
