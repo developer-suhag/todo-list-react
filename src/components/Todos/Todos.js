@@ -30,7 +30,7 @@ const Todos = () => {
         <Table sx={{ minWidth: 500 }}>
           <TableHead>
             <TableRow>
-              <TableCell>Edit</TableCell>
+              <TableCell>Mark as completed</TableCell>
               <TableCell>Title</TableCell>
               <TableCell>User</TableCell>
               <TableCell>Action</TableCell>

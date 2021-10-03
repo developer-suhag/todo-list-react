@@ -129,21 +129,44 @@ export default function PersistentDrawerRight() {
         </DrawerHeader>
         <Divider />
         <List>
-          {[
-            <NavLink activeClassName="active" className="menu-item" to="/home">
-              Home
-            </NavLink>,
-            <NavLink activeClassName="active" className="menu-item" to="/todos">
-              Todos
-            </NavLink>,
-          ].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <HomeIcon /> : <FormatListBulletedIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
+          <NavLink to="/home">
+            {[
+              <NavLink
+                activeClassName="active"
+                className="menu-item"
+                to="/home"
+              >
+                Home
+              </NavLink>,
+            ].map((text, index) => (
+              <ListItem button key={text}>
+                <ListItemIcon>
+                  <HomeIcon />
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItem>
+            ))}
+          </NavLink>
+        </List>
+        <List>
+          <NavLink to="/todos">
+            {[
+              <NavLink
+                activeClassName="active"
+                className="menu-item"
+                to="/todos"
+              >
+                Todos
+              </NavLink>,
+            ].map((text, index) => (
+              <ListItem button key={text}>
+                <ListItemIcon>
+                  <FormatListBulletedIcon />
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItem>
+            ))}
+          </NavLink>
         </List>
       </Drawer>
     </Box>

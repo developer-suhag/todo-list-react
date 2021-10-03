@@ -1,0 +1,14 @@
+.text-field {
+  color: #fff !important;
+}
+.edit-btn {
+  background-color: #06d6a0 !important;
+  color: #fff !important;
+}
+.dark-btn {
+  background: #000 !important;
+}
+.delete-icon {
+  background: #f72585 !important;
+  color: #fff !important;
+}
