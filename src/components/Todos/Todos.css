@@ -1,0 +1,20 @@
+tbody tr {
+  background: #f1faee;
+}
+tbody tr:hover {
+  background: #f2e9e4;
+}
+td {
+  /* color: #fff !important; */
+  font-weight: 500 !important;
+}
+.text-field {
+  color: #fff !important;
+}
+.edit-btn {
+  background-color: #06d6a0 !important;
+  color: #fff !important;
+}
+.cancle-btn {
+  background: #000 !important;
+}
